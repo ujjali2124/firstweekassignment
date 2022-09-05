@@ -1,3 +1,11 @@
+Youtube link
+
+https://youtu.be/fKBE8F_d-wI
+
+
+
+
+
 "# firstweekassignment" 
 
 package firstweekproject;
@@ -33,3 +41,65 @@ System.out.println("Hi, My Name is" +" " + fullName + " and i live at " +employe
 }
 
 New change
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double mathMarks = 80;
+		double scienceMarks =80;
+		double historyMarks = 80;
+		double finalAverage = (mathMarks+scienceMarks+historyMarks)/3;
+		System.out.println(finalAverage);
+		String firstName = "Ujjval";
+				String middleName = "Ashokbhai";
+				String lastName = "Patel";
+				String fullName = (firstName +" "+ middleName + " "+ lastName);
+				System.out.println(fullName);
+		char managerFirstNameInitial = 'A';
+		char managerLastNameInitial = 'B';
+		double salaryOfManager = 3000;
+		double taxesOnSalay = (salaryOfManager)*0.1;
+		double finalSalary = ( salaryOfManager - taxesOnSalay);
+		System.out.println(finalSalary);
+		double increments = (finalSalary)*0.2;
+		System.out.println(increments);
+		double totalFinalSalary = finalSalary + increments;
+		System.out.println(totalFinalSalary);
+		int availablePlaneSeats = 5;
+		double costOfGrocery = 13.67;
+		char personsMiddleInitial = 'A';
+		boolean isItHotOutside = false;
+		String firstName1 = "Ujjval";
+		System.out.println(availablePlaneSeats + " Available seats");
+		System.out.println(costOfGrocery+ " It is the Price for Grocery");
+		System.out.println(personsMiddleInitial);
+		System.out.println(isItHotOutside);
+		System.out.println(firstName1);
+//		availablePlaneSeats = availablePlaneSeats-2;
+		availablePlaneSeats -=2;
+		costOfGrocery +=2.15;
+		personsMiddleInitial = 'C';
+				System.out.println(availablePlaneSeats + " Available seats");
+				System.out.println(costOfGrocery+ " It is the Price for Grocery");
+				System.out.println(personsMiddleInitial);
+				isItHotOutside =!isItHotOutside;	
+				System.out.println(isItHotOutside);0
+	}
+
